@@ -27,7 +27,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -40,7 +40,7 @@ p {
 .body {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .body p {
@@ -79,7 +79,7 @@ p {
 }
 
 .work-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -186,12 +186,8 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
-    font-size: 24px;
-  }
-
-  .body {
-    padding: 80px 20px;
+  h3 {
+    font-size: 26px;
   }
 
   .project-description {
