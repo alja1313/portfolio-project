@@ -37,6 +37,10 @@ p {
   line-height: 30px;
 }
 
+.name {
+  color: var(--branding-color);
+}
+
 .body {
   background: var(--secondary-color);
   text-align: center;
@@ -110,6 +114,11 @@ img {
   border-radius: 5px;
 }
 
+img:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+
 .logo {
   max-height: 30px;
 }
@@ -175,6 +184,11 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+footer a {
+  color: var(--branding-color);
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {

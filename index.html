@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Front-end Developer - Olga Slahota</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta
       name="description"
       content="Olga Slahota is a front-end engineer, who is responsible for the creation and implementation of web-related projets and its maintenance.Olga is located in Spain. She is open to new opportunities."
@@ -50,17 +51,17 @@
       </navbar>
     </div>
     <div class="body">
-      <p>👋 Hello, I am</p>
-      <h1>Olga Slahota</h1>
+      <p id="hello">👋 Hello, I am</p>
+      <h1 class="name" id="name">Olga</h1>
       <h2 class="mb-5">Front-end Developer based in Spain 🇪🇸</h2>
       <div>
-        <a href="/contact.html" class="btn btn-branding" title="Contact Me"
-          >Contact Me 📧</a
+        <a href="/about.html" class="btn btn-branding" title="Contact Me"
+          >Get to know me</a
         >
       </div>
     </div>
     <p class="text-center m-5">
-      Featured Project which my best projects be choise to show
+      I create and code beautifully simple websites and loving it ❤
     </p>
     <div class="container">
       <div class="row mb-3">
@@ -75,10 +76,7 @@
           <div class="project-description">
             <h2 class="mb-5">Strength Training Project</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              This page was built with basic HTML & CSS and JavaScript.
             </p>
             <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
@@ -89,10 +87,7 @@
           <div class="project-description">
             <h2 class="mb-5">World Clock App</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              This app was built with HTML & CSS, JavaScript and API.
             </p>
             <a
               href="https://world-clock-project-one.netlify.app/"
@@ -122,10 +117,7 @@
           <div class="project-description">
             <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              This app was built with HTML & CSS, JavaScript, API and Bootstrap.
             </p>
             <a
               href="https://meteo-weather-project.netlify.app/"
@@ -141,10 +133,7 @@
           <div class="project-description">
             <h2 class="mb-5">AI Travel Itinerary Generator</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              This project was built with HTML & CSS, JavaScript, AI and React.
             </p>
             <a
               href="https://travel-itinerary-generator-ai.netlify.app/"
@@ -188,6 +177,12 @@
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
           <a
+            href="https://www.linkedin.com/in/olga-slahota-485359162?lipi=urn%3Ali%3Apage%3Ad_flagship3_notifications%3BU%2BDAH3NqRJu0orHKX4hqhQ%3D%3D"
+            target="_blank"
+            title="LInkedIn Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
             href="https://github.com/alja1313"
             target="_blank"
             title="GitHub Profile"
@@ -198,12 +193,6 @@
             target="_blank"
             title="Instagram Profile"
             ><i class="fa fa-instagram" aria-hidden="true"></i
-          ></a>
-          <a
-            href="https://www.facebook.com/people/Slahota-Olga/100001350266433/?paipv=0&eav=AfZI-uPIeVLK6YY1_En9JsoFUb7c7ej25SL07q-KEhlGs1NTJfhoi_wmCXiPT3G03pA&_rdr"
-            target="_blank"
-            title="Facebook Profile"
-            ><i class="fa-brands fa-facebook"></i
           ></a>
         </div>
         <p class="text-center mt-5">
@@ -222,5 +211,19 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      new Typewriter("#hello", {
+        strings: "Hello, I am ",
+        autoStart: true,
+        cursor: null,
+        delay: 50,
+      });
+      new Typewriter("#name", {
+        strings: "Olga ",
+        autoStart: true,
+        cursor: null,
+        delay: 200,
+      });
+    </script>
   </body>
 </html>
