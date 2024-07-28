@@ -191,7 +191,18 @@ footer a {
   text-decoration: none;
 }
 
+.icon {
+  max-width: 100%;
+}
+
 @media (max-width: 900px) {
+  .icon {
+    width: 10%;
+  }
+  .skills-icon {
+    text-align: center;
+  }
+
   h1 {
     font-size: 46px;
     line-height: 2;
@@ -214,5 +225,13 @@ footer a {
   }
   navbar a {
     font-size: 14px;
+  }
+
+  .my-photo {
+    margin-top: 30px;
+  }
+
+  .skills {
+    text-align: center;
   }
 }
