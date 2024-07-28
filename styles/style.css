@@ -151,6 +151,10 @@ navbar li.active a {
   color: var(--branding-color);
 }
 
+.skills {
+  text-align: center;
+}
+
 footer .contact-box {
   background: var(--secondary-color);
   border-radius: 10px;
